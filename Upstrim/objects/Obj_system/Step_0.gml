@@ -1,9 +1,15 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
 
-#region //Scroll
+//score
+score = floor((origin - y)/32);
 
-y -= 3;
+#region //Scroll
+scrollSpeed = 3 * multiplier;
+if instance_exists(Obj_player) {
+	Obj_player.scrollSpeed = scrollSpeed;
+}
+y -= scrollSpeed;
 
 #endregion
 
