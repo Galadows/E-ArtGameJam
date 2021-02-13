@@ -4,10 +4,7 @@
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "Obj_item",
-    "path": "objects/Obj_item/Obj_item.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -21,16 +18,17 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_diamond","path":"objects/Obj_diamond/Obj_diamond.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_itemDisplay","path":"objects/Obj_itemDisplay/Obj_itemDisplay.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"Obj_itemDisplay","path":"objects/Obj_itemDisplay/Obj_itemDisplay.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Items",
-    "path": "folders/Objects/Front/Items.yy",
+    "name": "Front",
+    "path": "folders/Objects/Front.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_diamond",
+  "name": "Obj_itemDisplay",
   "tags": [],
   "resourceType": "GMObject",
 }
