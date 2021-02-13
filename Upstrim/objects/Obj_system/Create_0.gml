@@ -13,3 +13,4 @@ cSX = undefined;
 cSY = undefined;
 
 instance_create_depth(room_width/3,room_height,0,Obj_stage);
+instance_create_depth(room_width/3,room_height+768/2,0,Obj_stage);

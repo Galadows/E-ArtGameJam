@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"Obj_entity","path":"objects/Obj_entity/Obj_entity.yy",},"order":2,},
+    {"id":{"name":"Obj_wall","path":"objects/Obj_wall/Obj_wall.yy",},"order":4,},
     {"id":{"name":"Spr_1px4","path":"sprites/Spr_1px4/Spr_1px4.yy",},"order":3,},
     {"id":{"name":"Obj_bullet","path":"objects/Obj_bullet/Obj_bullet.yy",},"order":1,},
     {"id":{"name":"Obj_camera","path":"objects/Obj_camera/Obj_camera.yy",},"order":5,},
@@ -16,8 +17,10 @@
     {"id":{"name":"Spr_butterfly","path":"sprites/Spr_butterfly/Spr_butterfly.yy",},"order":5,},
     {"id":{"name":"Tamagochi","path":"rooms/Tamagochi/Tamagochi.yy",},"order":1,},
     {"id":{"name":"Spr_test","path":"sprites/Spr_test/Spr_test.yy",},"order":0,},
+    {"id":{"name":"Obj_diamond","path":"objects/Obj_diamond/Obj_diamond.yy",},"order":0,},
     {"id":{"name":"Obj_butterfly","path":"objects/Obj_butterfly/Obj_butterfly.yy",},"order":3,},
     {"id":{"name":"Spr_1px3","path":"sprites/Spr_1px3/Spr_1px3.yy",},"order":2,},
+    {"id":{"name":"Spr_wall","path":"sprites/Spr_wall/Spr_wall.yy",},"order":6,},
     {"id":{"name":"Intro","path":"rooms/Intro/Intro.yy",},"order":0,},
   ],
   "Options": [
@@ -66,6 +69,7 @@
     {"folderPath":"folders/Objects/Front.yy","order":1,"resourceVersion":"1.0","name":"Front","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Back.yy","order":2,"resourceVersion":"1.0","name":"Back","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Objects/Back/Upstrim generation.yy","order":3,"resourceVersion":"1.0","name":"Upstrim generation","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Objects/Front/Collectables.yy","order":5,"resourceVersion":"1.0","name":"Collectables","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":461609314234257646,"resourceVersion":"1.0","name":"audiogroup_default","resourceType":"GMAudioGroup",},
