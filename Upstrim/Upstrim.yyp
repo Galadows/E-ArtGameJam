@@ -1,12 +1,18 @@
 {
   "resources": [
+    {"id":{"name":"Spr_1px4","path":"sprites/Spr_1px4/Spr_1px4.yy",},"order":3,},
+    {"id":{"name":"Obj_camera","path":"objects/Obj_camera/Obj_camera.yy",},"order":5,},
+    {"id":{"name":"Spr_1px","path":"sprites/Spr_1px/Spr_1px.yy",},"order":1,},
+    {"id":{"name":"Obj_debug","path":"objects/Obj_debug/Obj_debug.yy",},"order":4,},
     {"id":{"name":"Obj_stage","path":"objects/Obj_stage/Obj_stage.yy",},"order":0,},
     {"id":{"name":"Upstrim","path":"rooms/Upstrim/Upstrim.yy",},"order":2,},
     {"id":{"name":"Outro","path":"rooms/Outro/Outro.yy",},"order":3,},
     {"id":{"name":"Obj_controller","path":"objects/Obj_controller/Obj_controller.yy",},"order":0,},
     {"id":{"name":"Obj_player","path":"objects/Obj_player/Obj_player.yy",},"order":0,},
-    {"id":{"name":"Obj_generator","path":"objects/Obj_generator/Obj_generator.yy",},"order":1,},
+    {"id":{"name":"Obj_system","path":"objects/Obj_system/Obj_system.yy",},"order":1,},
     {"id":{"name":"Tamagochi","path":"rooms/Tamagochi/Tamagochi.yy",},"order":1,},
+    {"id":{"name":"Spr_test","path":"sprites/Spr_test/Spr_test.yy",},"order":0,},
+    {"id":{"name":"Spr_1px3","path":"sprites/Spr_1px3/Spr_1px3.yy",},"order":2,},
     {"id":{"name":"Intro","path":"rooms/Intro/Intro.yy",},"order":0,},
   ],
   "Options": [
@@ -32,9 +38,9 @@
     "children": [],
   },
   "RoomOrder": [
+    {"name":"Upstrim","path":"rooms/Upstrim/Upstrim.yy",},
     {"name":"Intro","path":"rooms/Intro/Intro.yy",},
     {"name":"Tamagochi","path":"rooms/Tamagochi/Tamagochi.yy",},
-    {"name":"Upstrim","path":"rooms/Upstrim/Upstrim.yy",},
     {"name":"Outro","path":"rooms/Outro/Outro.yy",},
   ],
   "Folders": [

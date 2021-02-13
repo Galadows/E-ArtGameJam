@@ -18,16 +18,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"parent":{"name":"Obj_generator","path":"objects/Obj_generator/Obj_generator.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"Obj_debug","path":"objects/Obj_debug/Obj_debug.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Upstrim generation",
-    "path": "folders/Objects/Back/Upstrim generation.yy",
+    "name": "Back",
+    "path": "folders/Objects/Back.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_generator",
+  "name": "Obj_debug",
   "tags": [],
   "resourceType": "GMObject",
 }
