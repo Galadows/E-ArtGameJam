@@ -51,8 +51,9 @@ if instance_exists(Obj_system) {
 	        break;
 	}
 } else {
-	TargetX = 0 ;//+ AxisRX*Factor;
-	TargetY = 0 ;//+ AxisRY*Factor;
+	TargetX = 0;
+	TargetY = 0;
+	Speed = 0;
 }
 
 //reset position on target
