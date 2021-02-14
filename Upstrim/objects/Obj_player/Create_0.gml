@@ -15,3 +15,6 @@ cooldown = 30;
 
 scrollSpeed = 3;
 vMargin = 96;
+
+image_xscale = 2;
+image_yscale = 2;

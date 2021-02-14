@@ -45,10 +45,15 @@ if (keyboard_check_direct(ord("D"))) {
 }
 
 aimDirection = point_direction(x,y,mouse_x,mouse_y);
+if aimDirection > 90 and aimDirection < 270 {
+	sprite_index = Spr_player_left;
+} else {
+	sprite_index = Spr_player_right;
+}
 
 cooldown -= 1;
 if mouse_check_button(mb_left) and cooldown < 1 {
-	instance_create_depth(x+sprite_height/2,y+sprite_width/2,0,Obj_bullet);
+	instance_create_depth(x,y,0,Obj_bullet);
 	cooldown = 30;
 }
 

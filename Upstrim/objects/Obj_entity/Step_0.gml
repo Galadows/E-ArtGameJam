@@ -4,7 +4,7 @@
 //death
 if life<0 {
 	instance_destroy();
-	Obj_system.multiplier += 0.02;
+	Obj_system.multiplier += 0.05;
 	
 	r = floor(random(4));
 	switch(r) {
@@ -30,7 +30,7 @@ if life<0 {
 //OOB
 if (y > Obj_camera.y + Obj_camera.ViewHeight + 2*sprite_height) {
 	instance_destroy();
-	Obj_system.multiplier -= 0.02;
+	Obj_system.multiplier -= 0.05;
 }
 
 //shoot
