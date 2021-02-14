@@ -5,6 +5,7 @@
 event_inherited();
 
 if (other.creator != id) {
+	audio_play_sound(Hit, 10, false);
 	direction = other.direction
 	speed = other.damage - res
 	

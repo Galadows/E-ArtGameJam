@@ -1,5 +1,6 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
+audio_play_sound(Pickup, 10, false);
 Obj_inventory.add(self.name)
 show_debug_message("books: ")
 show_debug_message(Obj_inventory.books)

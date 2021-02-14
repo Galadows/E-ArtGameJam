@@ -53,6 +53,7 @@ if aimDirection > 90 and aimDirection < 270 {
 
 cooldown -= 1;
 if mouse_check_button(mb_left) and cooldown < 1 {
+	audio_play_sound(Shoot, 10, false);
 	instance_create_depth(x,y,0,Obj_bullet);
 	cooldown = 30;
 }
