@@ -17,5 +17,5 @@ switch (room) {
 		break;
 }
 
-draw_text(room_width/2,room_height/2,testDisplay + " " + string(room));
-draw_text(room_width/2,room_height/2+16,string(Obj_camera.x) + " " + string(Obj_camera.y));
+//draw_text(room_width/2,room_height/2,testDisplay + " " + string(room));
+//draw_text(room_width/2,room_height/2+16,string(Obj_camera.x) + " " + string(Obj_camera.y));

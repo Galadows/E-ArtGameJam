@@ -20,7 +20,7 @@ if (keyboard_check_direct(ord("Z"))) {
 if (keyboard_check_direct(ord("S"))) {
 	moveDown = true;
 	if (y < Obj_camera.y+Obj_camera.ViewHeight-vMargin-sprite_height) {
-		y += moveSpeed-scrollSpeed;
+		y += moveSpeed;
 	}
 } else {
 	moveDown = false;

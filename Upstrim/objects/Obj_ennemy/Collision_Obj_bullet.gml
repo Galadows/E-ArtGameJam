@@ -9,13 +9,13 @@ if (other.creator != id) {
 	speed = other.damage - res
 	
 	// Init local variables and calculations
-	var min_scale = 1; // Minimum scale
-	var max_scale = 1.5; // Maximum scale
-	var goal_scale = (min_scale) + (max_scale); // Calculate goal scale
+	//var min_scale = 2; // Minimum scale
+	var max_scale = 5; // Maximum scale
+	//var goal_scale = (min_scale) + (max_scale); // Calculate goal scale
 	var scale_spd = 0.1; // Speed of scaling
 
 // Apply index and scale
-	image_xscale = lerp(image_xscale, goal_scale, scale_spd);
-	image_yscale = lerp(image_yscale, goal_scale, scale_spd);
+	xscale = lerp(xscale, max_scale, scale_spd);
+	yscale = lerp(yscale, max_scale, scale_spd);
 }
 
