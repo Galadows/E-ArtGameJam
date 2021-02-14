@@ -48,6 +48,7 @@ aimDirection = point_direction(x,y,mouse_x,mouse_y);
 
 cooldown -= 1;
 if mouse_check_button(mb_left) and cooldown < 1 {
+	audio_play_sound(Shoot, 10, false);
 	instance_create_depth(x+sprite_height/2,y+sprite_width/2,0,Obj_bullet);
 	cooldown = 30;
 }
