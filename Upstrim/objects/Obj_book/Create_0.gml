@@ -2,5 +2,5 @@
 // Vous pouvez écrire votre code dans cet éditeur
 event_inherited();
 
-
+name = "book"
 damage = 1;

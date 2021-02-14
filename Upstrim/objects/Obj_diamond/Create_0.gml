@@ -2,5 +2,5 @@
 // Vous pouvez écrire votre code dans cet éditeur
 event_inherited();
 
-
+name = "diamond"
 res = 1;
