@@ -74,3 +74,20 @@ function remove(name){
 	break
 	}
 }
+
+function getCount(name){
+	switch (name){
+	case "book":
+		return books
+	break
+	case "diamond":
+		return diamonds
+	break
+	case "chicken":
+		return chickens
+	break
+	case "ball":
+		return balls
+	break
+	}
+}

@@ -1,5 +1,6 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet 
+currentSong = audio_play_sound(Tamagotchi_song, 10, false);
 roomId = 3;
 room_goto(roomId);
 origin = 0;
