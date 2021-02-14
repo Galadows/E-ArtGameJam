@@ -7,3 +7,6 @@ moveSpeed = 5;
 
 cooldown = 60;
 aimDirection = 270;
+
+xscale = 1;
+yscale = 1;

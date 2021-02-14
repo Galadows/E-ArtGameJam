@@ -25,6 +25,6 @@ if (y > Obj_camera.y + 2*sprite_height and y < Obj_camera.y + Obj_camera.ViewHei
 }
 
 if cooldown < 1 {
-	instance_create_depth(x+sprite_height/2,y+sprite_width/2,0,Obj_bullet);
+	instance_create_depth(x,y,0,Obj_bullet);
 	cooldown = 30;
 }
