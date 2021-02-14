@@ -25,6 +25,7 @@
     {"id":{"name":"Font1","path":"fonts/Font1/Font1.yy",},"order":0,},
     {"id":{"name":"Obj_statsDisplay","path":"objects/Obj_statsDisplay/Obj_statsDisplay.yy",},"order":4,},
     {"id":{"name":"Obj_system","path":"objects/Obj_system/Obj_system.yy",},"order":1,},
+    {"id":{"name":"Obj_ennemy","path":"objects/Obj_ennemy/Obj_ennemy.yy",},"order":6,},
     {"id":{"name":"Spr_ball","path":"sprites/Spr_ball/Spr_ball.yy",},"order":3,},
     {"id":{"name":"Spr_butterfly","path":"sprites/Spr_butterfly/Spr_butterfly.yy",},"order":0,},
     {"id":{"name":"Spr_chicken","path":"sprites/Spr_chicken/Spr_chicken.yy",},"order":2,},
