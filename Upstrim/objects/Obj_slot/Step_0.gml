@@ -3,7 +3,7 @@
 // Init local variables and calculations
 item = Obj_itemDisplay.currentItem
 
-var range = 16; // Distance (in pixels) mouse must be from center of object before scaling begins
+var range = 8; // Distance (in pixels) mouse must be from center of object before scaling begins
 var min_scale = 3; // Minimum scale
 var max_scale = 3.2; // Maximum scale
 var mouse_hover = distance_to_point(mouse_x,mouse_y) <= range // Check if mouse is hovering

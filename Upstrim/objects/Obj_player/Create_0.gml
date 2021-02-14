@@ -6,10 +6,10 @@ moveLeft = false;
 moveRight = false;
 aimDirection = 0;
 
-life = 10;
-res = 3;
-damage = 5;
-moveSpeed = 5;
+life = Obj_main.life;
+res = Obj_main.res;
+damage = Obj_main.damage;
+moveSpeed = Obj_main.moveSpeed;
 
 cooldown = 30;
 

@@ -9,15 +9,21 @@ function add(name){
 	switch (name){
 	case "book":
 		books++
+		show_debug_message("books: ")
+		show_debug_message(Obj_inventory.books)
 	break
 	case "diamond":
 		diamonds++
+		show_debug_message("diamonds: ")
+		show_debug_message(Obj_inventory.diamonds)
 	break
 	case "chicken":
 		chickens++
 	break
 	case "ball":
 		balls++
+		show_debug_message("balls: ")
+		show_debug_message(Obj_inventory.balls)
 	break
 	}
 }
@@ -25,16 +31,46 @@ function add(name){
 function remove(name){
 	switch (name){
 	case "book":
-		books--
+		show_debug_message("books: ")
+		show_debug_message(Obj_inventory.books)
+		if (books > 0){
+			books--
+			return true
+		}else {
+			return false
+		}
 	break
 	case "diamond":
-		diamonds--
+		show_debug_message("diamonds: ")
+		show_debug_message(Obj_inventory.diamonds)
+		if (diamonds > 0){
+			diamonds--
+			return true
+		}else {
+			return false
+		}
+		
 	break
 	case "chicken":
-		chickens--
+		show_debug_message("chickens: ")
+		show_debug_message(Obj_inventory.chickens)
+		if (chickens > 0){
+			chickens--
+			return true
+		}else {
+			return false
+		}
+		
 	break
 	case "ball":
-		balls--
+		show_debug_message("balls: ")
+		show_debug_message(Obj_inventory.balls)
+		if (balls > 0){
+			balls--
+			return true
+		}else {
+			return false
+		}
 	break
 	}
 }
