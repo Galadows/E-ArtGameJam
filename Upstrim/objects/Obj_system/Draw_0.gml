@@ -12,10 +12,10 @@ height = 32 * yscale;
 originX = Obj_camera.x + 64;
 originY = Obj_camera.y + 64;
 
-life = 10;
-res = 6;
-force = 2;
-spd = 8;
+life = Obj_main.counterLife;
+res = Obj_main.counterRes;
+force = Obj_main.counterDamage;
+spd = Obj_main.counterSpeed;
 
 //stat
 
