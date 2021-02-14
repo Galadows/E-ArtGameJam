@@ -5,4 +5,5 @@ res = 0;
 damage = 0;
 moveSpeed = 0;
 
+name = "generic"
 type = undefined
