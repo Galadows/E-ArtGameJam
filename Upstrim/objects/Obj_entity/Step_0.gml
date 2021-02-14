@@ -5,7 +5,26 @@
 if life<0 {
 	instance_destroy();
 	Obj_system.multiplier += 0.02;
-	instance_create_depth(x,y,0,Obj_book);
+	
+	r = floor(random(4));
+	switch(r) {
+		case 0:
+			loot = Obj_diamond;
+			break;
+		case 1:
+			loot = Obj_book;
+			break;
+		case 2:
+			loot = Obj_chiken;
+			break;
+		case 3:
+			loot = Obj_ball;
+			break;
+		default:
+			loot = Obj_diamond;
+			break;
+	}
+	instance_create_depth(x,y,0,loot);
 }
 
 //OOB
