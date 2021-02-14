@@ -1,5 +1,8 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "Spr_diamond",
+    "path": "sprites/Spr_diamond/Spr_diamond.yy",
+  },
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

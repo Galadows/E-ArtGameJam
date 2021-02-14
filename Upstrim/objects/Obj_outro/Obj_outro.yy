@@ -1,16 +1,10 @@
 {
-  "spriteId": {
-    "name": "Spr_book",
-    "path": "sprites/Spr_book/Spr_book.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": {
-    "name": "Obj_item",
-    "path": "objects/Obj_item/Obj_item.yy",
-  },
+  "parentObjectId": null,
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -24,16 +18,16 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"parent":{"name":"Obj_book","path":"objects/Obj_book/Obj_book.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"parent":{"name":"Obj_outro","path":"objects/Obj_outro/Obj_outro.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Items",
-    "path": "folders/Objects/Front/Items.yy",
+    "name": "outro",
+    "path": "folders/Objects/Front/outro.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Obj_book",
+  "name": "Obj_outro",
   "tags": [],
   "resourceType": "GMObject",
 }

@@ -1,3 +1,5 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
-event_inherited();
+if room = 0 {
+	origin = Obj_system.origin;	
+}

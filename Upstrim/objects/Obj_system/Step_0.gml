@@ -1,9 +1,6 @@
 /// @description Insérez la description ici
 // Vous pouvez écrire votre code dans cet éditeur
 
-//score
-score = floor((origin - y)/32);
-
 #region //Scroll
 scrollSpeed = 3 * multiplier;
 if instance_exists(Obj_player) {

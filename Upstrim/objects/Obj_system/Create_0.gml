@@ -5,7 +5,6 @@ y = room_height;
 
 scrollSpeed = 3;
 multiplier = 1;
-score = 0;
 origin = y;
 
 cS = undefined;

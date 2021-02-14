@@ -44,12 +44,15 @@ if instance_exists(Obj_system) {
 				TotalY = 0;
 				
 				//Aim
-				var Factor = 3;
+				//var Factor = 3;
 				TargetX = (Obj_system.x - (ViewWidth/2)) ;//+ AxisRX*Factor;
 				TargetY = (Obj_system.y - (ViewHeight/2)) ;//+ AxisRY*Factor;
 				Speed = 0.10;
 	        break;
 	}
+} else {
+	TargetX = 0 ;//+ AxisRX*Factor;
+	TargetY = 0 ;//+ AxisRY*Factor;
 }
 
 //reset position on target

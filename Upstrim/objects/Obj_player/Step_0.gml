@@ -28,7 +28,7 @@ if (keyboard_check_direct(ord("S"))) {
 
 if (keyboard_check_direct(ord("Q"))) {
 	moveLeft = true;
-	if (x>room_width/3) {
+	if (x>room_width/3+32+1) {
 		x -= moveSpeed;
 	}
 } else {
@@ -37,7 +37,7 @@ if (keyboard_check_direct(ord("Q"))) {
 
 if (keyboard_check_direct(ord("D"))) {
 	moveRight = true;
-	if (x<2*room_width/3-sprite_width) {
+	if (x<2*room_width/3-sprite_width-32-1) {
 		x += moveSpeed;
 	}
 } else {
@@ -60,5 +60,6 @@ if mouse_check_button_released(mb_left) {
 
 //death
 if life < 1 {
+	room_goto(1);
 	instance_destroy();
 }
